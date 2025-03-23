@@ -15,28 +15,28 @@
   <title>page404</title>
 </head>
 
-<body>
-  <header class="flex items-center justify-between">
-    <div class="flex items-center gap-2">
+<body class="max-w-7xl mx-auto py-11 px-14 font-inria">
+  <header class="flex md:flex-row flex-col items-center justify-between">
+    <div class="flex items-center gap-2 pb-10 md:pb-0">
       <img src="./assets/codespace-logo.svg" alt="logo da codespace">
       <h1>CodeSpace</h1>
     </div>
-    <ul class="flex items-center gap-6">
+    <ul class="flex items-center gap-6 pb-20 md:pb-0">
       <li><a class="hover:underline" href="#">Home</a></li>
-      <li><a class="hover:underline" href="#">Sobre nós</a></li>
+      <li><a class="hover:underline whitespace-nowrap" href="#">Sobre nós</a></li>
       <li><a class="hover:underline" href="#">Suporte</a></li>
-      <li><a class="hover:underline" href="#">Fale conosco</a></li>
+      <li><a class="hover:underline whitespace-nowrap" href="#">Fale conosco</a></li>
     </ul>
   </header>
   <main>
-    <div class="max-w-[1130px] py-20 flex items-center gap-14">
-      <img class="w-[628px]" src="./assets/baloon.png" alt="imagem ilustrativa de balão voando">
-      <div class="w-[438px] flex flex-col gap-3">
+    <div class="max-w-full lg:max-w-[1130px] p-0 lg:py-20 flex lg:flex-row flex-col items-center gap-6 xl:gap-14">
+      <img class="w-[480px] xl:w-[628px]" src="./assets/baloon.png" alt="imagem ilustrativa de balão voando">
+      <div class="w-full xl:w-[438px] flex flex-col gap-3 pb-20 xl:pb-0">
         <h2 class="text-4xl font-semibold font-inter">OPA!</h2>
         <h3 class="text-2xl font-semibold font-inter">Não encontramos essa página</h3>
         <p class="text-xl font-inter">Se você se perdeu no espaço, não se preocupe, tente voltar para a página inicial
         </p>
-        <div class="flex items-center gap-2.5">
+        <div class="flex md:flex-row justify-center xl:justify-normal flex-col items-center gap-2.5 pt-20 xl:pt-0">
           <a class="bg-red-400 hover:bg-red-500 w-[156px] transition-colors font-medium whitespace-nowrap py-1 rounded-lg font-inter text-center"
             href="#">Voltar para Home</a>
           <a class="w-[266px] py-1 px-4 font-inter text-red-400 hover:text-red-500 transition-colors font-bold "
@@ -45,8 +45,8 @@
       </div>
     </div>
   </main>
-  <footer class="flex items-center justify-between">
-    <a target="_blank" href="#www.codepace.com.br">www.codespace.com.br</a>
+  <footer class="flex md:flex-row flex-col items-center justify-between">
+    <a class="pb-5 xl:pb-0" target="_blank" href="#www.codepace.com.br">www.codespace.com.br</a>
     <div class="flex items-center gap-10">
       <p>Siga-nos nas redes sociais</p>
       <ul class="flex items-center gap-6">
