@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inria+Sans:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet">
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="styles.css">
+  <title>page404</title>
+</head>
+
+<body>
+  <header class="flex items-center justify-between">
+    <div class="flex items-center gap-2">
+      <img src="./assets/codespace-logo.svg" alt="logo da codespace">
+      <h1>CodeSpace</h1>
+    </div>
+    <ul class="flex items-center gap-6">
+      <li><a class="hover:underline" href="#">Home</a></li>
+      <li><a class="hover:underline" href="#">Sobre nós</a></li>
+      <li><a class="hover:underline" href="#">Suporte</a></li>
+      <li><a class="hover:underline" href="#">Fale conosco</a></li>
+    </ul>
+  </header>
+  <main>
+    <div class="max-w-[1130px] py-20 flex items-center gap-14">
+      <img class="w-[628px]" src="./assets/baloon.png" alt="imagem ilustrativa de balão voando">
+      <div class="w-[438px] flex flex-col gap-3">
+        <h2 class="text-4xl font-semibold font-inter">OPA!</h2>
+        <h3 class="text-2xl font-semibold font-inter">Não encontramos essa página</h3>
+        <p class="text-xl font-inter">Se você se perdeu no espaço, não se preocupe, tente voltar para a página inicial
+        </p>
+        <div class="flex items-center gap-2.5">
+          <a class="bg-red-400 hover:bg-red-500 w-[156px] transition-colors font-medium whitespace-nowrap py-1 rounded-lg font-inter text-center"
+            href="#">Voltar para Home</a>
+          <a class="w-[266px] py-1 px-4 font-inter text-red-400 hover:text-red-500 transition-colors font-bold "
+            href="#">Visite nossa central de ajuda</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer class="flex items-center justify-between">
+    <a target="_blank" href="#www.codepace.com.br">www.codespace.com.br</a>
+    <div class="flex items-center gap-10">
+      <p>Siga-nos nas redes sociais</p>
+      <ul class="flex items-center gap-6">
+        <li><a href="#whatsapp"><img src="./assets/icon-whats.png" alt=""></a></li>
+        <li><a href="#facebook"><img src="./assets/icon-face.png" alt=""></a></li>
+        <li><a href="#linkedin"><img src="./assets/icon-linkedin.png" alt=""></a></li>
+      </ul>
+    </div>
+  </footer>
+</body>
+
+</html>
